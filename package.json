@@ -9,21 +9,16 @@
   "dependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "jira-prepare-commit-msg": "^1.7.2"
   },
   "devDependencies": {
     "husky": "^8.0.3"
   },
-  "jira-prepare-commit-msg": {
-    "messagePattern": "[$J] $M",
-    "jiraTicketPattern": "APM(-\\d+)",
-    "commentChar": "#",
-    "isConventionalCommit": false,
-    "conventionalCommitPattern": "^([a-z]+)(\\([a-z0-9.,-_ ]+\\))?!?: ([\\w \\S]+)$",
-    "allowEmptyCommitMessage": false,
-    "gitRoot": "",
-    "allowReplaceAllOccurrences": true,
-    "ignoredBranchesPattern": "^(master|main|dev|develop|development|release)$",
-    "ignoreBranchesMissingTickets": false
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
