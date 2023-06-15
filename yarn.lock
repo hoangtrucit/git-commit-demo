@@ -486,6 +486,26 @@ commitizen@^4.0.3, commitizen@^4.3.0:
     strip-bom "4.0.0"
     strip-json-comments "3.1.1"
 
+commitlint-config-jira@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/commitlint-config-jira/-/commitlint-config-jira-1.6.4.tgz#0314968d0b929c84d4863b0a32efa664c500c953"
+  integrity sha512-DNVOzQZgNPZuFYU61mVRssm0t+4IR7eF5VQA3RCGYdz45usauekjguOXJmV3uxEHIoqVDctKN2UrUlhbKCymrQ==
+  dependencies:
+    commitlint-jira-utils "^1.6.4"
+    opencollective-postinstall "^2.0.2"
+
+commitlint-jira-utils@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/commitlint-jira-utils/-/commitlint-jira-utils-1.6.4.tgz#b55b6dda4047a33de57500056be0abaa076ecb5c"
+  integrity sha512-1Mp5b0Q31XBreH3EKrDy8sD6vZmcXFm1x6OXeskaiiOKm5C1qQ0ObOiF66RKozuUAixaOGgHje6N/T+nfd5GBA==
+
+commitlint-plugin-jira-rules@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/commitlint-plugin-jira-rules/-/commitlint-plugin-jira-rules-1.6.4.tgz#fedca92cd3a266f580b32d9c58d467b230999e37"
+  integrity sha512-e+5pfp6emYp02Qm0OCs8rvPApKpTK7+HpndA2R9RJzNY0kg2i2/CGHuWd+StigMZe1Wmeo/d3H8Cwwlz3biWxA==
+  dependencies:
+    commitlint-jira-utils "^1.6.4"
+
 compare-func@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/compare-func/-/compare-func-2.0.0.tgz#fb65e75edbddfd2e568554e8b5b05fff7a51fcb3"
@@ -1307,6 +1327,11 @@ onetime@^5.1.0, onetime@^5.1.2:
   integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   dependencies:
     mimic-fn "^2.1.0"
+
+opencollective-postinstall@^2.0.2:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
+  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
 ora@^5.4.1:
   version "5.4.1"
