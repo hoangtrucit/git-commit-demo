@@ -24,14 +24,15 @@
     }
   },
   "jira-prepare-commit-msg": {
-    "messagePattern": "APM-$J $M",
-    "jiraTicketPattern": "(\\d+)",
+    "messagePattern": "[$J] $M",
+    "jiraTicketPattern": "([A-Z]+-\\d+)",
     "commentChar": "#",
     "isConventionalCommit": true,
-    "conventionalCommitPattern": "^([a-z]+)(\\([a-zA-Z0-9.,-_ ]+\\))?!?: ([\\w \\S]+)$",
+    "conventionalCommitPattern": "^([a-z]+)(\\([a-z0-9.,-_ ]+\\))?!?: ([\\w \\S]+)$",
     "allowEmptyCommitMessage": false,
     "gitRoot": "",
     "allowReplaceAllOccurrences": true,
+    "ignoredBranchesPattern": "^(master|main|dev|develop|development|release)$",
     "ignoreBranchesMissingTickets": false
   }
 }
