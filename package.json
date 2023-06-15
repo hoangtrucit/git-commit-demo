@@ -22,5 +22,17 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "jira-prepare-commit-msg": {
+    "messagePattern": "[$J] $M",
+    "jiraTicketPattern": "([A-Z]+-\\d+)",
+    "commentChar": "#",
+    "isConventionalCommit": true,
+    "conventionalCommitPattern": "^([a-z]+)(\\([a-z0-9.,-_ ]+\\))?!?: ([\\w \\S]+)$",
+    "allowEmptyCommitMessage": false,
+    "gitRoot": "",
+    "allowReplaceAllOccurrences": true,
+    "ignoredBranchesPattern": "^(master|main|dev|develop|development|release)$",
+    "ignoreBranchesMissingTickets": false
   }
 }
