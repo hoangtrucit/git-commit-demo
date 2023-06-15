@@ -191,6 +191,25 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
+"@dwmt/commitlint-common-jira-type@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dwmt/commitlint-common-jira-type/-/commitlint-common-jira-type-2.0.0.tgz#d1124af9c08cd4a3db223b6a55b5f4f1618184e9"
+  integrity sha512-yifbxNmvkiGbT/hxh24e0EDkXrFgGfqJMcGhcUVijRG+zpQyssjuFGu3sACVjJNVmOqgYNfjB5C4nmxU/97NJw==
+
+"@dwmt/commitlint-config-jira-type@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dwmt/commitlint-config-jira-type/-/commitlint-config-jira-type-2.0.0.tgz#b731c13f57cb51e918adfe56e0495cb08bae15ae"
+  integrity sha512-7geiOmT7syHjnGVXxcjSfVREp/qEEqO0l0RznFk4MXrxdHIVltUAtm+JADHocdH2gU8k+CcLhq6aWpv4s1Trxw==
+  dependencies:
+    "@dwmt/commitlint-common-jira-type" "2.0.0"
+
+"@dwmt/commitlint-plugin-jira-type@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dwmt/commitlint-plugin-jira-type/-/commitlint-plugin-jira-type-2.0.0.tgz#266c88e75bcff8dc2d82bf5ebfd0eb6d8b6e0523"
+  integrity sha512-5qKXAYSd6+QSs8rob+qNQUYXdqDwe3LQ4AzruChEPD6vzljfsbGfTXBx777zxIYfmHfTMzafhWb1TiSOmVTUsw==
+  dependencies:
+    "@dwmt/commitlint-common-jira-type" "2.0.0"
+
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz#c08679063f279615a3326583ba3a90d1d82cc721"
