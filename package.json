@@ -16,7 +16,7 @@
   },
   "jira-prepare-commit-msg": {
     "messagePattern": "[$J] $M",
-    "jiraTicketPattern": "([APM]+-\\d+)",
+    "jiraTicketPattern": "APM(-\\d+)",
     "commentChar": "#",
     "isConventionalCommit": false,
     "conventionalCommitPattern": "^([a-z]+)(\\([a-z0-9.,-_ ]+\\))?!?: ([\\w \\S]+)$",
