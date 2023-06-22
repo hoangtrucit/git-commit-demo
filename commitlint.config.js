@@ -4,6 +4,7 @@ module.exports = {
   rules: {
     "type-empty": [0],
     "subject-empty": [0],
+    "subject-case": [0],
     "type-enum": [0],
     "function-rules/type-enum": [
       2,
