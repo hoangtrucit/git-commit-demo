@@ -13,12 +13,14 @@
     "@dwmt/commitlint-plugin-jira-type": "^2.0.0",
     "commitizen": "^4.3.0",
     "commitlint-config-jira": "^1.6.4",
+    "commitlint-plugin-function-rules": "^2.0.0",
     "commitlint-plugin-jira-rules": "^1.6.4",
     "cz-conventional-changelog": "^3.3.0",
     "jira-prepare-commit-msg": "^1.7.2"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "nodemon": "^2.0.22"
   },
   "config": {
     "commitizen": {
