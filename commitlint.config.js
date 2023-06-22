@@ -16,7 +16,7 @@ module.exports = {
         if (isHeaderValid) {
           return [true];
         }
-        return [false, `header must match this regex: ${headerRegex}`];
+        return [false, `the message must match this regex: ${headerRegex}`];
       },
     ],
   },

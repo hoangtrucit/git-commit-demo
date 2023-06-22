@@ -9,14 +9,9 @@
   "dependencies": {
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
-    "@dwmt/commitlint-config-jira-type": "^2.0.0",
-    "@dwmt/commitlint-plugin-jira-type": "^2.0.0",
     "commitizen": "^4.3.0",
-    "commitlint-config-jira": "^1.6.4",
     "commitlint-plugin-function-rules": "^2.0.0",
-    "commitlint-plugin-jira-rules": "^1.6.4",
-    "cz-conventional-changelog": "^3.3.0",
-    "jira-prepare-commit-msg": "^1.7.2"
+    "cz-conventional-changelog": "^3.3.0"
   },
   "devDependencies": {
     "husky": "^8.0.3",
@@ -26,17 +21,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "jira-prepare-commit-msg": {
-    "messagePattern": "[$J] $M",
-    "jiraTicketPattern": "([A-Z]+-\\d+)",
-    "commentChar": "#",
-    "isConventionalCommit": true,
-    "conventionalCommitPattern": "^([a-z]+)(\\([a-z0-9.,-_ ]+\\))?!?: ([\\w \\S]+)$",
-    "allowEmptyCommitMessage": false,
-    "gitRoot": "",
-    "allowReplaceAllOccurrences": true,
-    "ignoredBranchesPattern": "^(master|main|dev|develop|development|release)$",
-    "ignoreBranchesMissingTickets": false
   }
 }

@@ -191,25 +191,6 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@dwmt/commitlint-common-jira-type@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@dwmt/commitlint-common-jira-type/-/commitlint-common-jira-type-2.0.0.tgz#d1124af9c08cd4a3db223b6a55b5f4f1618184e9"
-  integrity sha512-yifbxNmvkiGbT/hxh24e0EDkXrFgGfqJMcGhcUVijRG+zpQyssjuFGu3sACVjJNVmOqgYNfjB5C4nmxU/97NJw==
-
-"@dwmt/commitlint-config-jira-type@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@dwmt/commitlint-config-jira-type/-/commitlint-config-jira-type-2.0.0.tgz#b731c13f57cb51e918adfe56e0495cb08bae15ae"
-  integrity sha512-7geiOmT7syHjnGVXxcjSfVREp/qEEqO0l0RznFk4MXrxdHIVltUAtm+JADHocdH2gU8k+CcLhq6aWpv4s1Trxw==
-  dependencies:
-    "@dwmt/commitlint-common-jira-type" "2.0.0"
-
-"@dwmt/commitlint-plugin-jira-type@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@dwmt/commitlint-plugin-jira-type/-/commitlint-plugin-jira-type-2.0.0.tgz#266c88e75bcff8dc2d82bf5ebfd0eb6d8b6e0523"
-  integrity sha512-5qKXAYSd6+QSs8rob+qNQUYXdqDwe3LQ4AzruChEPD6vzljfsbGfTXBx777zxIYfmHfTMzafhWb1TiSOmVTUsw==
-  dependencies:
-    "@dwmt/commitlint-common-jira-type" "2.0.0"
-
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz#c08679063f279615a3326583ba3a90d1d82cc721"
@@ -538,30 +519,10 @@ commitizen@^4.0.3, commitizen@^4.3.0:
     strip-bom "4.0.0"
     strip-json-comments "3.1.1"
 
-commitlint-config-jira@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/commitlint-config-jira/-/commitlint-config-jira-1.6.4.tgz#0314968d0b929c84d4863b0a32efa664c500c953"
-  integrity sha512-DNVOzQZgNPZuFYU61mVRssm0t+4IR7eF5VQA3RCGYdz45usauekjguOXJmV3uxEHIoqVDctKN2UrUlhbKCymrQ==
-  dependencies:
-    commitlint-jira-utils "^1.6.4"
-    opencollective-postinstall "^2.0.2"
-
-commitlint-jira-utils@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/commitlint-jira-utils/-/commitlint-jira-utils-1.6.4.tgz#b55b6dda4047a33de57500056be0abaa076ecb5c"
-  integrity sha512-1Mp5b0Q31XBreH3EKrDy8sD6vZmcXFm1x6OXeskaiiOKm5C1qQ0ObOiF66RKozuUAixaOGgHje6N/T+nfd5GBA==
-
 commitlint-plugin-function-rules@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/commitlint-plugin-function-rules/-/commitlint-plugin-function-rules-2.0.0.tgz#7e480f0121d422dfbad6fe9bf0589ff99f3af08c"
   integrity sha512-EV84gdxir4sL5fHfG++gXEKYjw/CYwnI86tt3S4Z/tyPpi89ULTy8aJJMTW08EAQ6SuPvWYbuCFMSkl3mvGn2g==
-
-commitlint-plugin-jira-rules@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/commitlint-plugin-jira-rules/-/commitlint-plugin-jira-rules-1.6.4.tgz#fedca92cd3a266f580b32d9c58d467b230999e37"
-  integrity sha512-e+5pfp6emYp02Qm0OCs8rvPApKpTK7+HpndA2R9RJzNY0kg2i2/CGHuWd+StigMZe1Wmeo/d3H8Cwwlz3biWxA==
-  dependencies:
-    commitlint-jira-utils "^1.6.4"
 
 compare-func@^2.0.0:
   version "2.0.0"
@@ -1137,13 +1098,6 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-jira-prepare-commit-msg@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/jira-prepare-commit-msg/-/jira-prepare-commit-msg-1.7.2.tgz#a8eacf23b758ac6ad8bfed04c0d802fb7c9b38fb"
-  integrity sha512-vPmwqPoi5TfMF1rXh9XN6u7TiSG+FwdcbeL01nMBUbRRxTMXvIqQZoJSRoNoprgY1JUpYXplc3HGRSVsV22rLg==
-  dependencies:
-    cosmiconfig "^8.0.0"
-
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -1448,11 +1402,6 @@ onetime@^5.1.0, onetime@^5.1.2:
   integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   dependencies:
     mimic-fn "^2.1.0"
-
-opencollective-postinstall@^2.0.2:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
-  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
 
 ora@^5.4.1:
   version "5.4.1"
